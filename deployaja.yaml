@@ -47,7 +47,7 @@ env:
 
 envMap:
     domain_env: APP_URL
-    dependencies:
+dependencies:
   - name: "postgres"
     type: "POSTGRESQL"
     version: "15"
