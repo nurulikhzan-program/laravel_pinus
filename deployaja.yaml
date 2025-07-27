@@ -1,6 +1,6 @@
-name: laravel-absensi-pp
+name: laravel_pinus
 version: latest
-description: Laravel Absensi dengan PHP-FPM dan Nginx
+description: belajar deploy laravel
 container:
   image: alaziz554/absensi-laravel:1.0.18
   port: 80
@@ -54,5 +54,5 @@ env:
 envMap:
     domain_env: APP_URL
 
-domain: absensipp.deployaja.id
+domain: nurulikhzan.deployaja.id
 
