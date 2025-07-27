@@ -31,28 +31,27 @@ env:
     value: "false"
   - name: DB_CONNECTION
     value: pgsql
-    userManaged: true
   - name: DB_SSLMODE
     value: disable
 #insert from github variable/secret
   - name: DB_HOST
     value: localhost
-    userManaged: true
   - name: DB_DATABASE
     value: absensi
-    userManaged: true
   - name: DB_USERNAME
     value: postgres
-    userManaged: true
   - name: DB_PASSWORD
     value: postgres
-    userManaged: true
   - name: DB_PORT
     value: 5432
-    userManaged: true
 
 envMap:
     domain_env: APP_URL
+    dependencies:
+  - name: "postgres"
+    type: "POSTGRESQL"
+    version: "15"
+    storage_size: "2Gi"
 
 domain: nurulikhzan.deployaja.id
 
