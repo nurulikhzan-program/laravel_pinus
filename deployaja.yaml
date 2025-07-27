@@ -34,17 +34,7 @@ env:
   - name: DB_SSLMODE
     value: disable
 #insert from github variable/secret
-  - name: DB_HOST
-    value: localhost
-  - name: DB_DATABASE
-    value: absensi
-  - name: DB_USERNAME
-    value: postgres
-  - name: DB_PASSWORD
-    value: postgres
-  - name: DB_PORT
-    value: 5432
-
+  
 envMap:
     domain_env: APP_URL
 dependencies:
