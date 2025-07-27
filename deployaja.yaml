@@ -1,4 +1,4 @@
-name: laravel_pinus
+name: laravel-pinus
 version: latest
 description: belajar deploy laravel
 container:
